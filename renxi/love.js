@@ -1,4 +1,4 @@
-﻿(function (window) {
+(function (window) {
 
     function random(min, max) {
         return min + Math.floor(Math.random() * (max - min + 1));
@@ -95,7 +95,6 @@
     Seed.prototype = {
         draw: function () {
             this.drawHeart();
-            this.drawText();
         },
         addPosition: function (x, y) {
             this.cirle.point = this.cirle.point.add(new Point(x, y));
