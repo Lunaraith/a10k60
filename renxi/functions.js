@@ -23,12 +23,12 @@ $(window).resize(function() {
 				} else {
 					progress++;
 				}
-				$ele.html(str.substring(0, progress) + (progress & 1 ? '_' : ''));
+				$ele.html(str.substring(0, progress) + (progress & 1 ? '' : ''));
 				if (progress >= str.length) {
 					clearInterval(timer);
 					$ele.html(str);
 				}
-			}, 80);
+			}, 50);
 		});
 		return this;
 	};
