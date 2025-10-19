@@ -170,7 +170,7 @@
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
             ctx.font = "12px 微软雅黑,Verdana";
-            ctx.fillText("Mở đi bạn", 23, 10);
+            ctx.fillText("", 23, 10);
             ctx.restore();
         },
         clear: function () {
@@ -532,3 +532,4 @@
     window.Tree = Tree;
 
 })(window);
+
